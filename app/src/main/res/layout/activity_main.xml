@@ -11,14 +11,21 @@
         android:id="@+id/btCreateFiles"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="创建文件夹">
+        android:text="Q前创建文件夹及文件">
     </Button>
 
     <Button
         android:id="@+id/btCreateFile"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="创建文件">
+        android:text="Q后创建文件夹及文件">
+    </Button>
+
+    <Button
+        android:id="@+id/btCreateFileD"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Q后单个目录创建文件夹及文件">
     </Button>
 
     <TextView
